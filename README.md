@@ -26,7 +26,7 @@ optional arguments:
   --java-home JAVA_HOME
                         JAVA_HOME to use for the build (default: $JAVA_HOME)
   --cpu-cores {nCores}, -j {nCores}
-                        Number of CPU cores to use in the build (default: 24)
+                        Number of CPU cores to use in the build (default: all cores)
 
 Opensim core build options:
   --core-source CORE_SOURCE
