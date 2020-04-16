@@ -67,4 +67,8 @@ GUI build options:
 ## What it does
 The script clones/pulls the dafault core and gui repo's master branch, configs and builds them with CMake, picks reasonable choices for Netbeans and Java locations, creates all the diferent project folders as needed, using the current directory as root. For the GUI, it runs CMake and the Netbean's ANT to run the project.
 
-Tested in a Debian unstable x64, Netbeans 8.2, openjdk 8
+Tested in a Debian unstable x64, Netbeans 8.2, openjdk 8, SWIG 3.2
+
+## What it doesn't (yet)
+- Install all linux dependencies. They're there. I've built it :) python-dev, numpy, swig 3.0 etc. I'll add them eventually
+- Moves all Resources files (Models, Geometries, etc) to the installation folder.
